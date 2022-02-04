@@ -86,7 +86,7 @@ p {
   color: #fff;
 }
 
-/* Introdução */
+/* Introducao */
 
 .introducao {
   width: 100%;
@@ -135,10 +135,11 @@ p {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
+
   letter-spacing: 0.1em;
 }
 
-/*Produtos*/
+/* Produtos */
 
 .produtos {
   padding: 60px 0;
@@ -155,14 +156,17 @@ p {
   line-height: 25px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+
   margin-top: 20px;
 }
 
 .produtos_lista li h3:after {
   content: "";
   display: block;
+
   width: 60px;
   height: 3px;
+
   background: #000;
   margin: 2px auto;
 }
@@ -184,4 +188,35 @@ p {
 
 .call p {
   margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+.portfolio {
+  width: 100%;
+  background: #000;
+
+  padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+  color: #fec63e;
+}
+
+.portfolio .subtitulo:after {
+  background: #fec63e;
+}
+
+.portfolio_lista li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio .call p {
+  color: #fff;
+}
+
+/*Qualidade*/
+
+.qualidade {
+  padding: 60px 0;
 }
